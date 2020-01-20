@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: silver;
+  font-family: 'Source Serif Pro', serif;
+}
+
+h1 {
+  color: silver;
+  text-align: center;
+  font-size: 50pt;
+  border-style: solid;
+ border-color:silver;
+
+}
+
+.pub-figs{
+  width:75%;
+  /* position: relative;
+  margin: 100pt auto 10pt; */
+  margin: auto;
+  /* border-style: solid;
+ border-color:red; */
+ border: 10px solid silver;
+
+}
+
+.publications {
+  display: grid;
+  grid-template-columns: 500px 300px 500px 300px;
+  grid-template-rows: repeat(9,300px);
+  font-size: 12pt;
+  color: silver;
+
+}
+.citations{
+  /* margin: 50% 0; */
+  /* transform: translateY(50%); */
+  margin: auto;
+  /* border-style: solid;
+    border:100px;
+    border-color: red; */
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+a.pub-link:link{
+  color: red;
+
+}
+
+a.pub-link:visited{
+  color: yellow;
+
+}
+
+.top-bar {
+  /* grid-template-columns: 300px 300px 500px 300px; */
+  grid-template-columns: 300px 300px 300px 300px;
+  font-size: 16pt;
+  justify-content: center;
+  display: flex;
+  padding: 5px 0;
+  /* background: rgb(255,255,255); */
+}
+
+.top-bar a{
+
+  margin: auto;
+}
+
+a:link {
+  color: silver;
+}
+
+a:visited {
+  color: silver;
+}
+
+a:hover {
+  color: green;
+}

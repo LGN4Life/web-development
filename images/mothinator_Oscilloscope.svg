@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg47331" viewBox="0 0 637.8 337.58" version="1.0">
+  <title id="title14701">Oscilloscope</title>
+  <defs id="defs47333">
+    <linearGradient id="linearGradient49174" x1="74.372" gradientUnits="userSpaceOnUse" y1="74.372" gradientTransform="matrix(1.4069 0 0 1.5009 60.989 -990.24)" x2="273.32" y2="466.68">
+      <stop id="stop48365" stop-color="#b3b3b3" offset="0"/>
+      <stop id="stop48367" stop-color="#666" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient14573" x1="154.85" gradientUnits="userSpaceOnUse" y1="502.32" gradientTransform="matrix(.55186 0 0 .62551 58.654 -170.59)" x2="158.69" y2="845.69">
+      <stop id="stop48120" stop-color="#fff" stop-opacity=".50196" offset="0"/>
+      <stop id="stop48122" stop-color="#666" stop-opacity="0" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" transform="translate(-54.312 -114.79)">
+    <rect id="rect47341" transform="rotate(90)" ry="60.036" height="621.8" width="321.58" stroke="#4d4d4d" y="-684.11" x="122.79" stroke-width="16" fill="url(#linearGradient49174)"/>
+    <rect id="rect48116" ry="11.534" height="245.96" width="318.2" stroke="#333" y="148.65" x="93.466" stroke-width="8.238" fill="#008080"/>
+    <path id="path6581" stroke-linejoin="round" d="m99.371 272.03c14.545 33.825 29.09 67.286 43.635 88.388 14.545 21.101 29.09 29.342 43.635 21.83s29.09-30.697 43.635-61.166 29.09-67.621 43.635-98.103 29.09-53.625 43.635-61.166c14.545-7.5416 29.09 0.75221 43.635 21.83s29.09 54.563 43.635 88.388" title="sin(x)" stroke="#c8ab37" stroke-linecap="round" stroke-width="5.4718" fill="none"/>
+    <g id="g13466" stroke="#000" transform="matrix(.77155 0 0 .58780 97.58 153.85)" fill="none">
+      <g id="g13468" stroke-width="2">
+        <path id="path13470" d="m100 0v400"/>
+        <path id="path13472" d="m200 0v400"/>
+        <path id="path13474" d="m300 0v400"/>
+      </g>
+      <g id="g13476" stroke-width="2">
+        <path id="path13478" d="m0 100h400"/>
+        <path id="path13480" d="m0 200h400"/>
+        <path id="path13482" d="m0 300h400"/>
+      </g>
+      <g id="g13484">
+        <path id="path13486" d="m50 0v400"/>
+        <path id="path13488" d="m150 0v400"/>
+        <path id="path13490" d="m250 0v400"/>
+        <path id="path13492" d="m350 0v400"/>
+      </g>
+      <rect id="rect13494" ry="7.9579" height="402.58" width="400.45" y="-.60327" x=".0039424" stroke-width="3.009"/>
+    </g>
+    <g id="g2969" stroke="#333" transform="translate(232.37 -128.87)">
+      <path id="rect48383" stroke-width="6.7841" fill="#4d4d4d" d="m234.19 302.09h162.54c7.9232 0 14.452 12.034 14.638 26.982l0.87914 70.583c0.1862 14.948-6.0426 26.982-13.966 26.982h-162.54c-7.9232 0-14.452-12.034-14.638-26.982l-0.87914-70.583c-0.1862-14.948 6.0426-26.982 13.966-26.982z"/>
+      <g id="g2943" transform="translate(-34.257 3.5685)" fill="#ccc">
+        <rect id="rect48387" ry="2.7555" transform="matrix(1 0 -.010104 .99995 0 0)" height="13.089" width="20.81" stroke="#333" y="313.38" x="274.01" stroke-width=".83424" fill="#ccc"/>
+        <use id="use48607" xlink:href="#rect48387" transform="translate(.0000021348 26.589)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48609" xlink:href="#rect48387" transform="translate(.0000021348 53.179)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48611" xlink:href="#rect48387" transform="translate(44.699 7.4433e-7)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48613" xlink:href="#rect48387" transform="translate(44.699 26.589)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48615" xlink:href="#rect48387" transform="translate(44.699 53.179)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48617" xlink:href="#rect48387" transform="translate(89.397 7.4433e-7)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48619" xlink:href="#rect48387" transform="translate(89.397 26.589)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48623" xlink:href="#rect48387" transform="translate(134.1 7.4433e-7)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48625" xlink:href="#rect48387" transform="translate(134.1 26.589)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48619-9" xlink:href="#rect48387" transform="translate(89.832 52.42)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48625-7" xlink:href="#rect48387" transform="translate(134.53 52.42)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48609-0" xlink:href="#rect48387" transform="translate(.62210 79.169)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48615-2" xlink:href="#rect48387" transform="translate(45.321 79.169)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48619-9-2" xlink:href="#rect48387" transform="translate(90.454 78.41)" height="1052.3622" width="744.09448" y="0" x="0"/>
+        <use id="use48625-7-3" xlink:href="#rect48387" transform="translate(135.15 78.41)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      </g>
+    </g>
+    <g id="g3125-9" transform="translate(382.8 51.551)">
+      <g id="g2982-8-0" transform="translate(389.14 6.6939)">
+        <path id="path47347-2-4-0" style="color:#000000" d="m-235.55 284.35c-19.446-0.53675-30.167 28.625-15.449 42.361 12.662 14.297 38.398 4.7862 39.308-15.138 1.5038-14.223-10.288-28.202-23.859-27.223z" stroke="#4d4d4d" stroke-width="1.8911" fill="#ccc"/>
+      </g>
+      <g id="g2982-7-2" transform="translate(387.95 76.244)" fill="#999">
+        <path id="path3035-2" d="m285.02 257.75c0 10.544-8.5479 19.092-19.092 19.092s-19.092-8.5479-19.092-19.092 8.5479-19.092 19.092-19.092 19.092 8.5479 19.092 19.092" transform="translate(-499.45 -18.022)" stroke="#000" stroke-width="1px" fill="#999"/>
+      </g>
+      <g id="g2982-7-4-6" transform="matrix(.76508 0 0 .76508 333.09 132.52)" fill="#f2f2f2">
+        <path id="path3035-1-9" d="m285.02 257.75c0 10.544-8.5479 19.092-19.092 19.092s-19.092-8.5479-19.092-19.092 8.5479-19.092 19.092-19.092 19.092 8.5479 19.092 19.092z" transform="translate(-499.45 -18.022)" stroke="#000" stroke-width="1px" fill="#f2f2f2"/>
+      </g>
+      <path id="path3123-0" stroke="#000" transform="translate(-103.52 64.037)" d="m261.81 251.85c0 2.1303-1.727 3.8572-3.8572 3.8572-2.1303 0-3.8572-1.7269-3.8572-3.8572s1.7269-3.8572 3.8572-3.8572 3.8572 1.727 3.8572 3.8572z"/>
+    </g>
+    <path id="rect48114" fill="url(#linearGradient14573)" d="m102.96 152.55 300.16 0.22558c-43.19 149.34-213.65 59.24-306.7 213.59l0.13382-204.83c-0.40145-5.6438 1.1784-8.1924 6.4043-8.9953z"/>
+    <g id="g3125" transform="translate(306.18 51.551)">
+      <g id="g2982-8" transform="translate(389.14 6.6939)">
+        <path id="path47347-2-4" style="color:#000000" d="m-235.55 284.35c-19.446-0.53675-30.167 28.625-15.449 42.361 12.662 14.297 38.398 4.7862 39.308-15.138 1.5038-14.223-10.288-28.202-23.859-27.223z" stroke="#4d4d4d" stroke-width="1.8911" fill="#ccc"/>
+      </g>
+      <g id="g2982-7" transform="translate(387.95 76.244)" fill="#999">
+        <path id="path3035" d="m285.02 257.75c0 10.544-8.5479 19.092-19.092 19.092s-19.092-8.5479-19.092-19.092 8.5479-19.092 19.092-19.092 19.092 8.5479 19.092 19.092" transform="translate(-499.45 -18.022)" stroke="#000" stroke-width="1px" fill="#999"/>
+      </g>
+      <g id="g2982-7-4" transform="matrix(.76508 0 0 .76508 333.09 132.52)" fill="#f2f2f2">
+        <path id="path3035-1" d="m285.02 257.75c0 10.544-8.5479 19.092-19.092 19.092s-19.092-8.5479-19.092-19.092 8.5479-19.092 19.092-19.092 19.092 8.5479 19.092 19.092z" transform="translate(-499.45 -18.022)" stroke="#000" stroke-width="1px" fill="#f2f2f2"/>
+      </g>
+      <path id="path3123" stroke="#000" transform="translate(-103.52 64.037)" d="m261.81 251.85c0 2.1303-1.727 3.8572-3.8572 3.8572-2.1303 0-3.8572-1.7269-3.8572-3.8572s1.7269-3.8572 3.8572-3.8572 3.8572 1.727 3.8572 3.8572z"/>
+    </g>
+    <g id="g3125-9-3" transform="translate(459.42 51.509)">
+      <g id="g2982-8-0-7" transform="translate(389.14 6.6939)">
+        <path id="path47347-2-4-0-3" style="color:#000000" d="m-235.55 284.35c-19.446-0.53675-30.167 28.625-15.449 42.361 12.662 14.297 38.398 4.7862 39.308-15.138 1.5038-14.223-10.288-28.202-23.859-27.223z" stroke="#4d4d4d" stroke-width="1.8911" fill="#ccc"/>
+      </g>
+      <g id="g2982-7-2-5" transform="translate(387.95 76.244)" fill="#999">
+        <path id="path3035-2-5" d="m285.02 257.75c0 10.544-8.5479 19.092-19.092 19.092s-19.092-8.5479-19.092-19.092 8.5479-19.092 19.092-19.092 19.092 8.5479 19.092 19.092" transform="translate(-499.45 -18.022)" stroke="#000" stroke-width="1px" fill="#999"/>
+      </g>
+      <g id="g2982-7-4-6-1" transform="matrix(.76508 0 0 .76508 333.09 132.52)" fill="#f2f2f2">
+        <path id="path3035-1-9-8" d="m285.02 257.75c0 10.544-8.5479 19.092-19.092 19.092s-19.092-8.5479-19.092-19.092 8.5479-19.092 19.092-19.092 19.092 8.5479 19.092 19.092z" transform="translate(-499.45 -18.022)" stroke="#000" stroke-width="1px" fill="#f2f2f2"/>
+      </g>
+      <path id="path3123-0-1" stroke="#000" transform="translate(-103.52 64.037)" d="m261.81 251.85c0 2.1303-1.727 3.8572-3.8572 3.8572-2.1303 0-3.8572-1.7269-3.8572-3.8572s1.7269-3.8572 3.8572-3.8572 3.8572 1.727 3.8572 3.8572z"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Oscilloscope</dc:title>
+        <dc:date>2009-11-02T22:37:41</dc:date>
+        <dc:description>A stylized oscilloscope.</dc:description>
+        <dc:source>http://openclipart.org/detail/28033/oscilloscope-by-mothinator</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mothinator</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>electronic equipment</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>oscilloscope</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>remix</rdf:li>
+            <rdf:li>science</rdf:li>
+            <rdf:li>scientific equipment</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
