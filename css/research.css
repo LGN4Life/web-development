@@ -19,35 +19,84 @@ h2 {
 
 }
 
-.pub-figs{
-  width:75%;
-  /* position: relative;
-  margin: 100pt auto 10pt; */
-  margin: auto;
-  /* border-style: solid;
- border-color:red; */
- border: 10px solid silver;
+.top-bar {
+
+  font-size: 16pt;
+  justify-content: center;
+  display: flex;
+  padding: 5px 0;
+}
+
+.tab-bar{
+
+  font-size: 16pt;
+  justify-content: center;
+  display: flex;
+
+}
+.tab{
+  padding: 10px 10%;
+  border-style: solid;
 
 }
 
-.visual-pathway {
-  display: grid;
-  width: 100%;
+.tab.active-tab{
+  font-weight: bold;
+    background:blue;
+}
+
+
+.tab-panel{
+  border-style: solid;
+  /* background: blue; */
+  display: none;
   color: silver;
 
+  width: 100%;
+  height: 800px;
+
 }
-.overview{
+
+.tab-panel.active-panel{
+  /* background:red; */
+  display: flex;
+}
+
+/* .tab-panel{
+  color: red;
+  display: none;
+} */
+
+
+
+
+
+.intro{
   display: grid;
-  grid-template-columns: 50%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px 400px 400px;
   font-size: 15pt;
   /* width: 50%; */
   /* justify-content: center;
   margin: 50px auto; */
   color: silver;
 }
-.intro{
-  grid-column-start: 1;
+
+
+
+
+.visual-pathway {
+  grid-area: 1 / 2 / span 1 / span 2;
+  /* height: 10%; */
+  height: 100%;
+
+
 }
+
+
+
+
+
 
 a{
   text-decoration: none;
@@ -64,15 +113,7 @@ a.pub-link:visited{
 
 }
 
-.top-bar {
-  /* grid-template-columns: 300px 300px 500px 300px; */
-  grid-template-columns: 300px 300px 300px 300px;
-  font-size: 16pt;
-  justify-content: center;
-  display: flex;
-  padding: 5px 0;
-  /* background: rgb(255,255,255); */
-}
+
 
 .top-bar a{
 
