@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div class="top-bar">
+  <div class="menu-bar">
     <a class="top-bar-link" href="index.html">Home</a>
     <a class="top-bar-link" href="Publications.html">Publications</a>
     <a class="top-bar-link" href="research-tabs.html">Research</a>
@@ -21,38 +21,135 @@
   <div class="container">
     <h1>Research summary</h1>
 
-      <!-- Nav tabs -->
-      <div class="tab-bar">
-        <a class="tab active-tab" href="#overview">Overview</a>
-        <a class="tab" href="#Retinogeniculate">Retinogeniculate</a>
+    <!-- Nav tabs -->
+    <div class="tab-bar">
+      <p class="tab active-tab">Overview</p>
+      <p class="tab">Retinogeniculate</p>
+      <p class="tab">LGN</p>
+      <p class="tab">Corticothalamic</p>
+      <p class="tab">Pulvinar</p>
+      <!-- <a class="tab" href="">Retinogeniculate</a>
+      <a class="tab" href="#LGN">LGN</a>
+      <a class="tab" href="#LGN">Corticothalamic</a>
+      <a class="tab" href="#LGN">Pulvinar</a> -->
+    </div>
+
+    <!-- Tab panes -->
+    <div class="tab-panel-container">
+      <div class="tab-panel active-panel" id="overview">
+        <div class="intro-tab">
+          <p class="intro-text"> My research has largely focused on the fundamental question of how visual signals from the retina are transmitted through
+            the lateral gniculate nucleus (LGN) to primary visual cortex (V1). The output neurons of the retina are retinal ganglion cells (RGCs). The axons of RGCs form the optic nerve and
+            optic tract, which provides monosynaptic excitation to the LGN. Individual LGN neurons receive input from one to several RGCs, depending on the species and retinotopic excentricity
+            (i.e, distance from the fovea). ~85% of LGN neurons send excitatory input to V1 and are classified as relay neurons. The largest component of the LGN to V1 projection
+            goes to layer 4, with smaller projections to layer 6 and layer 2/3. This feed forward componet is just the back bone
+            upon which visual processing flows from the retina to V1.</p>
+
+          <img class="visual-pathway" src="images/visual path.jpg" alt="">
+        </div>
+
       </div>
-
-      <!-- Tab panes -->
-      <div class="tab-panel-container">
-        <div class="tab-panel active-panel" id="overview">
-          <div class="intro">
-            <p class="intro-text"> My research has largely focused on the fundamental question of how visual signals from the retina are transmitted through
-              the lateral gniculate nucleus (LGN) to primary visual cortex (V1). The output neurons of the retina are retinal ganglion cells (RGCs). The axons of RGCs form the optic nerve and
-              optic tract, which provides monosynaptic excitation to the LGN. Individual LGN neurons receive input from one to several RGCs, depending on the species and retinotopic excentricity
-              (i.e, distance from the fovea). ~85% of LGN neurons send excitatory input to V1 and are classified as relay neurons. The largest component of the LGN to V1 projection
-              goes to layer 4, with smaller projections to layer 6 and layer 2/3.</p>
-
-              <img class="visual-pathway" src="images/visual path.jpg" alt="">
+      <div class="tab-panel" id="retinogeniculate">
+        <div class="retinogeniculate-tab">
+          <div class="retinogeniculate-wrapper">
+            <p class="retinogeniculate-text"> We have studied the activation of LGN neurons by retinal excitation quite directly and extensively by recording monosynapticly RGC-LGN pairs. This means
+              we simultaneously record an RGC and and an LGN neuron that receives synaptic input from the recorded RGC. Using statistical analysis we can measure how changes in the
+              visual scene or changes in the overall network state influence how and when retinal activity is transmitted to V1.</p>
+            <ul>
+              <li> <a href="https://drive.google.com/open?id=1RostaAYQC5TnXnXFrW6Tf33w2wqsp2Y1">Contrast gain control is present in both the retina and the LGN</a>. However, contrast gain control is augmented in the LGN. The consquence of this
+                augmentation
+                is that retinal spikes are more effective in driving LGN activity when the visual stimulus is low contrast.
+              </li>
+              <li><a href="https://drive.google.com/open?id=1xQgGHQ15UWidSdDSj9VW64SCnn23gadE">Extraclassical suppression is about 50% stronger in the LGN than it is in the retina.</a>
+                This form of suppression takes only ~7-10ms to appear! Thus, it opperates as an
+                untrafast mechanism to gate retinal activity from reaching V1.</li>
+              <li><a href="https://drive.google.com/open?id=1zg8kgkAVx7CRtCwYrDb_hJusfQqq10MB">Retinogeniculate communication is modualted by thalamic bursts.</a>
+                When the correct conditions are meet, the mechanisms that trigger thalamic bursts, such as T-type Ca++ channels cause retinal spikes to become more
+                effective in driving LGN activity during. </li>
+            </ul>
           </div>
 
+          <img class="visual-pathway-2" src="images/RGC-LGN example.jpg" alt="">
         </div>
-        <div class="tab-panel" id="retinogeniculate">
-          <p>retinogeniculate</p>
+      </div>
+      <div class="tab-panel" id="LGN">
+        <div class="retinogeniculate-tab">
+          <div class="retinogeniculate-wrapper">
+            <p class="retinogeniculate-text"> We have studied the activation of LGN neurons by retinal excitation quite directly and extensively by recording monosynapticly RGC-LGN pairs. This means
+              we simultaneously record an RGC and and an LGN neuron that receives synaptic input from the recorded RGC. Using statistical analysis we can measure how changes in the
+              visual scene or changes in the overall network state influence how and when retinal activity is transmitted to V1.</p>
+            <ul>
+              <li> <a href="https://drive.google.com/open?id=1RostaAYQC5TnXnXFrW6Tf33w2wqsp2Y1">Contrast gain control is present in both the retina and the LGN</a>. However, contrast gain control is augmented in the LGN. The consquence of this
+                augmentation
+                is that retinal spikes are more effective in driving LGN activity when the visual stimulus is low contrast.
+              </li>
+              <li><a href="https://drive.google.com/open?id=1xQgGHQ15UWidSdDSj9VW64SCnn23gadE">Extraclassical suppression is about 50% stronger in the LGN than it is in the retina.</a>
+                This form of suppression takes only ~7-10ms to appear! Thus, it opperates as an
+                untrafast mechanism to gate retinal activity from reaching V1.</li>
+              <li><a href="https://drive.google.com/open?id=1zg8kgkAVx7CRtCwYrDb_hJusfQqq10MB">Retinogeniculate communication is modualted by thalamic bursts.</a>
+                When the correct conditions are meet, the mechanisms that trigger thalamic bursts, such as T-type Ca++ channels cause retinal spikes to become more
+                effective in driving LGN activity during. </li>
+            </ul>
+          </div>
+
+          <img class="visual-pathway-2" src="images/RGC-LGN example.jpg" alt="">
         </div>
+      </div>
 
+      <div class="tab-panel" id="LGN">
+        <div class="retinogeniculate-tab">
+          <div class="retinogeniculate-wrapper">
+            <p class="retinogeniculate-text"> We have studied the activation of LGN neurons by retinal excitation quite directly and extensively by recording monosynapticly RGC-LGN pairs. This means
+              we simultaneously record an RGC and and an LGN neuron that receives synaptic input from the recorded RGC. Using statistical analysis we can measure how changes in the
+              visual scene or changes in the overall network state influence how and when retinal activity is transmitted to V1.</p>
+            <ul>
+              <li> <a href="https://drive.google.com/open?id=1RostaAYQC5TnXnXFrW6Tf33w2wqsp2Y1">Contrast gain control is present in both the retina and the LGN</a>. However, contrast gain control is augmented in the LGN. The consquence of this
+                augmentation
+                is that retinal spikes are more effective in driving LGN activity when the visual stimulus is low contrast.
+              </li>
+              <li><a href="https://drive.google.com/open?id=1xQgGHQ15UWidSdDSj9VW64SCnn23gadE">Extraclassical suppression is about 50% stronger in the LGN than it is in the retina.</a>
+                This form of suppression takes only ~7-10ms to appear! Thus, it opperates as an
+                untrafast mechanism to gate retinal activity from reaching V1.</li>
+              <li><a href="https://drive.google.com/open?id=1zg8kgkAVx7CRtCwYrDb_hJusfQqq10MB">Retinogeniculate communication is modualted by thalamic bursts.</a>
+                When the correct conditions are meet, the mechanisms that trigger thalamic bursts, such as T-type Ca++ channels cause retinal spikes to become more
+                effective in driving LGN activity during. </li>
+            </ul>
+          </div>
 
+          <img class="visual-pathway-2" src="images/RGC-LGN example.jpg" alt="">
+        </div>
+      </div>
 
+      <div class="tab-panel" id="LGN">
+        <div class="retinogeniculate-tab">
+          <div class="retinogeniculate-wrapper">
+            <p class="retinogeniculate-text"> We have studied the activation of LGN neurons by retinal excitation quite directly and extensively by recording monosynapticly RGC-LGN pairs. This means
+              we simultaneously record an RGC and and an LGN neuron that receives synaptic input from the recorded RGC. Using statistical analysis we can measure how changes in the
+              visual scene or changes in the overall network state influence how and when retinal activity is transmitted to V1.</p>
+            <ul>
+              <li> <a href="https://drive.google.com/open?id=1RostaAYQC5TnXnXFrW6Tf33w2wqsp2Y1">Contrast gain control is present in both the retina and the LGN</a>. However, contrast gain control is augmented in the LGN. The consquence of this
+                augmentation
+                is that retinal spikes are more effective in driving LGN activity when the visual stimulus is low contrast.
+              </li>
+              <li><a href="https://drive.google.com/open?id=1xQgGHQ15UWidSdDSj9VW64SCnn23gadE">Extraclassical suppression is about 50% stronger in the LGN than it is in the retina.</a>
+                This form of suppression takes only ~7-10ms to appear! Thus, it opperates as an
+                untrafast mechanism to gate retinal activity from reaching V1.</li>
+              <li><a href="https://drive.google.com/open?id=1zg8kgkAVx7CRtCwYrDb_hJusfQqq10MB">Retinogeniculate communication is modualted by thalamic bursts.</a>
+                When the correct conditions are meet, the mechanisms that trigger thalamic bursts, such as T-type Ca++ channels cause retinal spikes to become more
+                effective in driving LGN activity during. </li>
+            </ul>
+          </div>
 
+          <img class="visual-pathway-2" src="images/RGC-LGN example.jpg" alt="">
+        </div>
       </div>
 
 
+    </div>
 
-<script src="js/tabs.js"></script>
+
+
+    <script src="js/tabs.js"></script>
 
 
 </body>

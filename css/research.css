@@ -9,55 +9,72 @@ h1 {
   text-align: center;
   font-size: 50pt;
   border-style: solid;
- border-color:silver;
-
+  border-color: silver;
 }
 
 h2 {
   color: silver;
-
-
 }
 
-.top-bar {
-
+.menu-bar {
   font-size: 16pt;
   justify-content: center;
   display: flex;
   padding: 5px 0;
 }
 
-.tab-bar{
+.menu-bar a {
+  margin: auto;
+}
 
-  font-size: 16pt;
+.tab-bar {
+  /* font-size: 16pt; */
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10%;
+  grid-template-rows: 70px;
+  /* position: relative; */
+  /* bottom: 10px; */
+  /* display: flex; */
+}
+
+/* .tabBar a {
+  margin-bottom: auto;
   justify-content: center;
-  display: flex;
-
-}
-.tab{
-  padding: 10px 10%;
+  color:red;
+  width: 100%;
+  margin: auto 100px;;
+  text-align: center;
+} */
+.tab {
+  /* padding: 10px 0; */
+  /* margin-bottom: 30px; */
   border-style: solid;
+  text-align: center;
+  position: relative;
+  top: 16px;
 
+  /* vertical-align: baseline; */
 }
 
-.tab.active-tab{
-  font-weight: bold;
-    background:blue;
+.tab.active-tab {
+  font-weight: bolder;
+  background: blue;
+
+}
+.tab-bar p:hover{
+  font-weight: bolder;
 }
 
-
-.tab-panel{
+.tab-panel {
   border-style: solid;
   /* background: blue; */
   display: none;
   color: silver;
-
   width: 100%;
   height: 800px;
-
 }
 
-.tab-panel.active-panel{
+.tab-panel.active-panel {
   /* background:red; */
   display: flex;
 }
@@ -66,58 +83,64 @@ h2 {
   color: red;
   display: none;
 } */
-
-
-
-
-
-.intro{
+.intro-tab {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 400px 400px 400px 400px;
   font-size: 15pt;
   /* width: 50%; */
-  /* justify-content: center;
-  margin: 50px auto; */
+  justify-content: center;
+  margin: 50px auto;
   color: silver;
 }
 
+/* .intro-tab{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px 400px 400px;
+  font-size: 15pt;
 
-
-
-.visual-pathway {
-  grid-area: 1 / 2 / span 1 / span 2;
-  /* height: 10%; */
-  height: 100%;
-
-
+  justify-content: center;
+  margin: 50px auto;
+  color: silver;
+} */
+.retinogeniculate-tab {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px 400px 400px;
+  font-size: 15pt;
+  /* width: 50%; */
+  justify-content: center;
+  margin: 50px auto;
+  color: silver;
 }
 
+.visual-pathway {
+  grid-area: 1 / 2 / span 1 / span 1;
+  /* height: 10%; */
+  height: 100%;
+  margin-left: 100px;
+  /* margin-left: 50px; */
+}
 
+.visual-pathway-2 {
+  grid-area: 1 / 2 / span 1 / span 1;
+  /* height: 10%; */
+  height: 100%;
+  margin-left: 100px;
+  /* margin-left: 50px; */
+}
 
-
-
-
-a{
+a {
   text-decoration: none;
 }
 
-
-a.pub-link:link{
+a.pub-link:link {
   color: red;
-
 }
 
-a.pub-link:visited{
+a.pub-link:visited {
   color: yellow;
-
-}
-
-
-
-.top-bar a{
-
-  margin: auto;
 }
 
 a:link {
